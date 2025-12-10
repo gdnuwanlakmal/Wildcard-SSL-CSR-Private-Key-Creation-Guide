@@ -50,3 +50,5 @@ openssl req -text -noout -verify -in wildcard.csr
   X509v3 Subject Alternative Name:
     DNS:*.yourdomain.com, DNS:yourdomain.com  (if SAN used)
 ```
+Next step: upload wildcard.csr to GlobalSign
+🔑 Keep wildcard.key safe — never share it.
